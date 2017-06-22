@@ -1,5 +1,5 @@
 # problem statement
-uploads a file to a nintex workflow cloud workflow instance
+uploads a file to a nintex workflowcloud workflow instance
 
 # example usage
 
