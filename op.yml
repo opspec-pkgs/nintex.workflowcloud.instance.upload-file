@@ -1,5 +1,5 @@
 name: github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file
-description: uploads a file to a nintex workflow cloud workflow instance
+description: uploads a file to a nintex workflowcloud workflow instance
 inputs:
   baseUrl:
     string:
