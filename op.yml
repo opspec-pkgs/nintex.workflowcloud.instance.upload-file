@@ -4,7 +4,7 @@ inputs:
   url:
     string:
       constraints: { minLength: 1 }
-      description: 'url (w/ token) of nintex workflowcloud workflow'
+      description: 'file upload url (w/ token) of nintex workflowcloud workflow'
   instanceToken:
     string:
       constraints: { minLength: 1 }
