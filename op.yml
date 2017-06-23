@@ -1,19 +1,10 @@
 name: github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file
 description: uploads a file to a nintex workflowcloud workflow instance
 inputs:
-  baseUrl:
+  url:
     string:
       constraints: { minLength: 1 }
-      description: 'tenanted nintex workflowcloud base URL; for example: https://TENANT_NAME.workflowcloud.com'
-  workflowId:
-    string:
-      constraints: { minLength: 1 }
-      description: id of a nintex workflowcloud external start workflow
-  workflowToken:
-    string:
-      constraints: { minLength: 1 }
-      description: token for a nintex workflowcloud external start workflow
-      isSecret: true
+      description: 'url (w/ token) of nintex workflowcloud workflow'
   instanceToken:
     string:
       constraints: { minLength: 1 }
@@ -34,9 +25,7 @@ run:
     image: { ref: 'opspecpkgs/nintex.workflowcloud.instance.upload-file:1.0.0' }
     cmd: [ /cmd.sh ]
     envVars:
-      baseUrl:
-      workflowId:
-      workflowToken:
+      url:
       instanceToken:
       fileName:
     files: { /cmd.sh, /file: file }
