@@ -9,7 +9,7 @@ statusCode=$(curl \
     --output \
     /fileToken \
     --write-out "%{http_code}" \
-    -X POST "${baseUrl}/api/v1/workflow/published/${workflowId}/instances/uploads?token=${workflowToken}" \
+    -X POST "$url" \
     -H 'Transfer-Encoding: chunked' \
     -F "Instance-Token=${instanceToken}" \
     -F "File-Name=${fileName}" \
