@@ -23,9 +23,7 @@ opctl run github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file#VERSI
 op:
   pkg: { ref: github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file#VERSION }
   inputs: 
-    baseUrl:
-    workflowId:
-    workflowToken:
+    url:
     instanceToken:
     file:
     fileName:
