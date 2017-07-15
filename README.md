@@ -1,7 +1,7 @@
-# problem statement
+# Problem statement
 uploads a file to a nintex workflowcloud workflow instance
 
-# example usage
+# Example usage
 
 > note: in examples, VERSION represents a version of the nintex.workflowcloud.instance.upload-file pkg
 
@@ -30,3 +30,8 @@ op:
   outputs:
     fileToken:
 ```
+
+# Support
+
+join us on [![Slack](https://opspec-slackin.herokuapp.com/badge.svg)](https://opspec-slackin.herokuapp.com/)
+or [open an issue](https://github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file/issues)
