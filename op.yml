@@ -17,17 +17,18 @@ inputs:
     string:
       description: name of the file
 outputs:
-  instanceToken:
+  fileToken:
     string:
-      description: token for the created workflow instance
+      description: token for the uploaded file
 run:
   container:
-    image: { ref: 'opspecpkgs/nintex.workflowcloud.instance.upload-file:1.0.0' }
+    image: { ref: 'opspecpkgs/nintex.workflowcloud.instance.upload-file:1.0.1' }
     cmd: [ /cmd.sh ]
     envVars:
       url:
       instanceToken:
       fileName:
-    files: { /cmd.sh, /file: file }
-    stdOut:
-      instanceToken=: instanceToken
+    files:
+      /cmd.sh:
+      /file: $(file)
+      /fileToken: $(fileToken)
