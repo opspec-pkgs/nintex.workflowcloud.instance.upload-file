@@ -2,8 +2,6 @@
 
 set -e
 
-touch /fileToken
-
 statusCode=$(curl \
     --silent \
     --output \
@@ -19,4 +17,3 @@ if test "$statusCode" -ne 201; then
 echo "$(cat /fileToken)"
 exit 1
 fi
-echo "fileToken=$(cat /fileToken)"
