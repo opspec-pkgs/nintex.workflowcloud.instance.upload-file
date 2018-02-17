@@ -20,6 +20,8 @@ outputs:
   fileToken:
     string:
       description: token for the uploaded file
+icon: /icon.svg
+version: 1.0.0
 run:
   container:
     image: { ref: 'opspecpkgs/nintex.workflowcloud.instance.upload-file:1.0.1' }
