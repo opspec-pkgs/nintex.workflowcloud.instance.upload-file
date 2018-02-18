@@ -21,10 +21,10 @@ outputs:
     string:
       description: token for the uploaded file
 icon: /icon.svg
-version: 1.0.0
+version: 1.0.2
 run:
   container:
-    image: { ref: 'opspecpkgs/nintex.workflowcloud.instance.upload-file:1.0.1' }
+    image: { ref: 'opspecpkgs/nintex.workflowcloud.instance.upload-file:1.0.2' }
     cmd: [ /cmd.sh ]
     envVars:
       url:
