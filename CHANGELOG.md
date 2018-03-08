@@ -5,10 +5,11 @@ All notable changes will be documented in this file in accordance with
 
 ## \[Unreleased]
 
-## \[1.0.2] - 2018-02-18
+## \[1.1.0] - 2018-02-18
 
 ### Added
 
+- opspec 0.1.6 compatibility
 - icon
 
 ## \[1.0.1] - 2017-12-08
