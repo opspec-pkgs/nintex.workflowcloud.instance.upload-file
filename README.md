@@ -1,5 +1,4 @@
-[![build](https://github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file/actions/workflows/build.yml/badge.svg)](https://github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file/actions/workflows/build.yml)
-
+[![Build Status](https://github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file/workflows/build/badge.svg?branch=main)](https://github.com/opspec-pkgs/nintex.workflowcloud.instance.upload-file/actions?query=workflow%3Abuild+branch%3Amain)
 
 <img src="icon.svg" alt="icon" height="100px">
 
